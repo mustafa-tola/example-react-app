@@ -1,13 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import {Button} from '@material-ui/core';
+import { Home } from './design/pages/Home';
 
 function App() {
   return (
-    <div className="App">
-      <h1>mustufa</h1>
-      <h1>Syed Abdullah Hussaini</h1>
-    </div>
-  );
+      <Home />
+    );
 }
 
 export default App;
